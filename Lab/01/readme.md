@@ -26,6 +26,7 @@ For 4 weeks, Ali volunteered as a helper for swimming classes. The first week, h
 Famous math’s Square roots can also be used to find the distance between two points in a 2-dimensional or 3-dimensional system for movie or video game production. We have the formula for the distance D between two points (x1, y1) and (x2, y2) in 2 dimensions which is given by:
                                                                       D = √((x2 – x1)2 + (y2 – y1)2)
 Find the distance D using scratch.
+![WhatsApp Image 2023-08-23 at 9 20 06 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/ec5e9df7-4065-4171-acd7-aa0488829d85)
 
    
 
