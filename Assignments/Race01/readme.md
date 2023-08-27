@@ -20,3 +20,11 @@ There are 10 floors in a building 0 to 9. The building lift/elevator has 1 digit
 E.g., 0110000 means only panel ‘B’ and ‘C’ are lit thus telling that this is the first floor. Similarly, the number 1111110 tells that all panels are lit except panel ‘G’ displaying the number 0. You need to write a program for a computer surveillance system to tell which floor the lift is on. The input for the program is the 7-digit integer compromising of only 1s and 0s. The output should be a single
 digit integer 0 to 9 telling which floor the lift is on.
 Hint: You can get the last digit by using %10 and the remaining digits by using integer division /10. Also, you only need branching to do it.
+##METHOD 1
+![WhatsApp Image 2023-08-27 at 6 50 41 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/65c25d39-3b85-4196-96c8-073f35a1e3b3)
+![WhatsApp Image 2023-08-27 at 6 51 21 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/1a7343db-49c4-4b95-b3c9-004fb12050f5)
+##METHOD 2
+![WhatsApp Image 2023-08-27 at 10 28 46 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/29e2dde4-c6d1-4b70-b5f6-4e8b56cbe240)
+![WhatsApp Image 2023-08-27 at 10 29 27 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/9021a040-4778-4974-a188-50ee1d2fc7a2)
+
+
