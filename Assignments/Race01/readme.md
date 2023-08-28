@@ -14,7 +14,9 @@ age.”
 Problem 4: Bus fare
 Mr. Bhola has acquired the post of a transport minister. Transport mafia has forced him to implement a complex bus fare method which benefits the transporters. Mr. Bhola (as you have by now known, that he is week in mathematics) is unable to calculate the fare correctly. The new fare calculation method
 suggests that all adults pay a basic fare of PKR 10 and minors pay a basic fare of PKR 5. For every subsequent 5 km adults pay PKR 5/km and minors pay PKR 3/km (First 5km are free after paying basic fare). Adults and minors are determined by the definition in problem 2. Input to the program are traveler’s age, gender, and distance. Output is the total fare. Check for all invalid inputs (e.g., negative distance or age values).
-![WhatsApp Image 2023-08-27 at 4 42 24 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/4d4efde8-5253-4d3d-ac32-62dfbd2cf2ef)
+![WhatsApp Image 2023-08-28 at 8 35 57 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/232a5a5b-7c41-44e6-9adf-f5ee3e64655b)
+![WhatsApp Image 2023-08-28 at 8 32 12 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/eb0f10a6-adf3-4b99-84b4-d72b7e33186b)
+
 Problem 5: Which Floor
 There are 10 floors in a building 0 to 9. The building lift/elevator has 1 digit 7 segment LCD Panel display to tell which floor the lift is on, as shown. The input into the LCD Panel is a 7-digit long integer with only 1s and 0s. Each digit of the 7-digit long integer tells which panel to light or not to light from A to G respectively, where 1 means to light the panel and 0 means to keep it off.
 E.g., 0110000 means only panel ‘B’ and ‘C’ are lit thus telling that this is the first floor. Similarly, the number 1111110 tells that all panels are lit except panel ‘G’ displaying the number 0. You need to write a program for a computer surveillance system to tell which floor the lift is on. The input for the program is the 7-digit integer compromising of only 1s and 0s. The output should be a single
