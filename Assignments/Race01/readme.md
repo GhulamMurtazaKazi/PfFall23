@@ -28,5 +28,35 @@ Hint: You can get the last digit by using %10 and the remaining digits by using 
 ##METHOD 2
 ![WhatsApp Image 2023-08-27 at 10 28 46 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/29e2dde4-c6d1-4b70-b5f6-4e8b56cbe240)
 ![WhatsApp Image 2023-08-27 at 10 29 27 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/9021a040-4778-4974-a188-50ee1d2fc7a2)
+Problem 6: Sum Digit
+Using loops sum the digits of a positive number.
+![WhatsApp Image 2023-09-04 at 9 47 28 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/c27f0a09-d9c9-49a4-bd21-75f45745047b)
+
+Problem 7: Exact Age in days, months, and years from Date of Birth
+NOTE: For this problem you may ignore the leap years when calculating age but not when validating date
+of birth or current date.
+Given DOB of an applicant find the exact age in days, months, and years. But first check the DOB and
+current date for a valid Gregorian date. Use functions were needed.
+![WhatsApp Image 2023-09-04 at 10 09 25 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/88fe1182-3049-41ae-bc1a-7d9caa38281a)
+![WhatsApp Image 2023-09-04 at 10 09 59 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/33f33c64-c1d5-47fb-9215-de4e23d23ffc)
+![WhatsApp Image 2023-09-04 at 10 10 35 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/26fcd477-a8a4-4e45-af28-6fa9b2da2e59)
+![WhatsApp Image 2023-09-04 at 10 11 02 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/2fa8390a-c18d-4967-bbf4-15ebd577a309)
+![WhatsApp Image 2023-09-04 at 10 11 32 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/38738686-9ef4-4595-a006-091696e4ffb1)
+![WhatsApp Image 2023-09-04 at 10 11 54 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/1fe80a65-6d8c-4a1b-9323-061f897ba311)
 
 
+Problem 8: Mean Machine
+Mr. Bhola does not know how to calculate the average of n numbers. Draw a flowchart using a loops that
+will keep asking Mr. Bhola to enter an integer until he gives as input the number 0. After which you print
+the average of all the numbers he entered previously. ‘0’ indicates that the input is complete.
+![WhatsApp Image 2023-09-04 at 9 46 24 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/6fed25ef-eb43-4053-8271-562b42ac3fcd)
+
+Problem 9: Not a prime
+We are not talking about Optimus Prime here but prime numbers. Given a positive integer find out whether
+it is a prime number or not. You may use the MOD and Integer division operators.
+![WhatsApp Image 2023-09-04 at 9 47 11 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/df2825e6-5560-4209-9b63-0ac89ead3ada)
+
+Problem 10: Factorial
+Mathematicians define 0! to be 1. For example, 3! is 3 x 2 x 1 which is equal to 6. Draw a flowchart to find
+factorial of a positive integer. You may use all basic math operations.
+![WhatsApp Image 2023-09-04 at 9 46 03 AM](https://github.com/GhulamMurtazaKazi/PfFall23/assets/142872097/c01e29bb-3f86-4c5c-b39f-212204b5d794)
