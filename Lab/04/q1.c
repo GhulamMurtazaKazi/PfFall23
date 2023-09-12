@@ -1,5 +1,5 @@
 /*
-*Programmer:Ghulam Murtza
+*Programmer:Ghulam Murtaza
 *Date:12-9-23
 *Description:This program prints a pyramid of stars for n numbers.*/
 
