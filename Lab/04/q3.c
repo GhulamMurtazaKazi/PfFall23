@@ -24,6 +24,4 @@ sqr= n*n;
 sum=sum +sqr;
 }while(i<=q);
 printf(" print sum %f", sum);
-
-return 0;
 }//end main
