@@ -4,36 +4,35 @@
 *Description:This program tells which person is older.*/
 
 
-//--Include Files--//
-#include <stdio.h>
-
-int main() {
-	int datePerson1, monthPerson1, yearPerson1; // birthDate, birthMonth, birthYear of person1
-	int datePerson2, monthPerson2, yearPerson2; // birthDate, birthMonth, birthYear of person2
-	int dateDiff, monthDiff, yearDiff; // diifference in their ages 
-
-	printf("Input DOB of person1 in format dd/mm/yyyy: ");
-	scanf("%d/%d/%d", &datePerson1, &monthPerson1, &yearPerson1);
-
-	printf("Input DOB of person2 in format dd/mm/yyyy: ");
-	scanf("%d/%d/%d", &datePerson2, &monthPerson2, &yearPerson2);
-
-	dateDiff = datePerson1 - datePerson2;
-	monthDiff = monthPerson1 - monthPerson2;
-	yearDiff = yearPerson1 - yearPerson2;
-
-	if (yearDiff > 0) {
-		printf("person2 is older");
-		return 1;		
-	} else if (!yearDiff && monthDiff > 0) {
-		printf("person2 is older");
-		return 1;
-	} else if (!yearDiff && !monthDiff && dateDiff > 0) {
-		printf("person2 is older");
-		return 1; 
+//--Include File--//
+#include<stdio.h>
+int main () {
+	int year_1,month_1,date_1,year_2,month_2,date_2;
+	printf("enter date,month,year of birth of 1st person\n");
+	scanf("%d %d %d",&date_1,&month_1,&year_1);
+	printf("enter date,month,year of birth of 2nd person\n");
+	scanf("%d %d %d",&date_2,&month_2,&year_2);
+	if (year_1-year_2<0) {
+		printf("1st person is older");
+	}  else if (year_1-year_2==0)
+	{
+		if (month_1-month_2<0) {
+				printf("1st person is older");
+		} else if (month_1-month_2==0) {
+			if (date_1-date_2<0) {
+				printf("1st person is older");
+			} else if (date_1-date_2==0) {
+				printf("both are of same");
+			} else {
+					printf("2nd person is older");
+				
+			}
+		} else { 
+		printf("2nd person is older");
+			
+		}
 	} else {
-		printf("Same age");
+		printf("2nd person is older");
 	}
-
-	printf("person1 is older");
-}// end main
+	return 0;
+}
