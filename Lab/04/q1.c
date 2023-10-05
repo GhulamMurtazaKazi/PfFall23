@@ -5,25 +5,19 @@
 
 
 //--included files--//
-#include <stdio.h>
-
-int main() {
-	int n, i, j; // row count for '*', counter for rows, counter for '*'
-	i = 0, j = 0; // initialize i and j
-
-	printf("Input any number 'n': ");
-	scanf("%d", &n);
-
-	while (i < n){
-		
-		// adding '*'
-		j = 0;
-		while (j <= i) {
+#include<stdio.h>
+int main () {
+	int number,i=1,j=1;
+	printf("enter a number:");
+	scanf("%d",&number);
+	while (j<=number) {
+		while (i>0) {
 			printf("*");
-			j++;
-		} 		
-		printf("\n"); // starting new line
-		i++;
+			--i;
+		} 
+		printf("\n");
+		j++;
+		i=j;
 	}
-
-}// end main
+return 0;
+}
