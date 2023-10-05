@@ -5,23 +5,19 @@
 
 
 //--Include Files--//
-#include <stdio.h>
-#include <math.h>
-
-int main(){
-int i=1;
-int n;
-int q;
-float sqr;
-float sum=0;
-printf("enter number of integers");
-scanf("%d", &q);
-do{
-i++;
-printf("enter a number");
-scanf("%d", &n);
-sqr= n*n;
-sum=sum +sqr;
-}while(i<=q);
-printf(" print sum %f", sum);
-}//end main
+#include<stdio.h>
+int main () {
+	float number,i,sum=0;
+	printf("enter a number:");
+	scanf("%f",&number);
+    i=number;
+    while (i>0) {
+    	printf("enter a number\n");
+    	scanf("%f",&number);
+    	sum=sum+(number*number);
+    	--i;
+    	
+	}
+	printf("the sum of the squares of the numbers you entered is %f",sum);
+return 0;
+}
