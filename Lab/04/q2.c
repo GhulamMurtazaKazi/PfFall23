@@ -5,21 +5,20 @@
 
 
 //--Include Files--//
-#include <stdio.h>
-
-int main() {
-	int n;
-	int i = 0;
-	int j;
-	printf("Enter a number: ");
-	scanf("%d", &n);
-	while (i < n) {
-		j = 0;
-		while (j < n) {
-			printf("*");
-			j = j + 1;
-		}
-		printf("\n");
-		i = i +1;
+#include<stdio.h>
+int main () {
+	int number,i,j;
+	printf("enter a number:");
+	scanf("%d",&number);
+	i=number,j=number;
+	while (j>0) {
+	while (i>0) {
+		printf("*");
+		--i;
 	}
-}//end main
+	printf("\n");
+	--j;
+	i=number;
+}
+return 0;
+}
