@@ -7,44 +7,30 @@
 //--included files--//
 #include<stdio.h>
 #include<math.h>
-int main(){
+int main () {
+    float a,b,c,d;
+    printf("enter a,b,c\n");
+    scanf("%f %f %f ",&a,&b,&c);
+    d=(b*b)-(4*a*c);
+    if (a==0) {
+        printf("invalid a can't be equal to 0");
+    } else {
+        if  (d==0) {
+            printf("roots are equal");
+            printf("%f",-b/(2*a));
+        } else if (d>0) {
+                d=sqrt(d);
+                printf("root 1:%f",(-b+d)/(2*a));
+                printf("root 2:%f",(-b-d)/(2*a));
+            
+        } else {
+            d=fabs(d);
+            d=sqrt(d);
+            printf("root 1:%f+%fi",(-b/(2*a)),(d/(2*a)));
+            printf("root 2:%f-%fi",(-b/(2*a)),(d/(2*a)));
+            
+        }
+    }
     
-    printf("Quadratic equation is in the form of\n");
-    printf("ax^2+bx+c\n");
-    printf("With the help of a, b, c we get 2 roots of \n");
-    printf("Enter Values of a, b, c . \n");
-    int a,b,c;
-
-    printf("\nEnter Value of a:  ");          //Asking for Value of a
-    scanf("%d",&a);
-
-    printf("\nEnter Value of b:  ");          //Asking for Value of b
-    scanf("%d",&b);
-
-    printf("\nEnter Value of c:  ");          //Asking for Value of c
-    scanf("%d",&c);
-
-    int Discriminant;
-    float X1, X2;
-    Dsc = (b*b)-(4*a*c);
-
-
-                        //Checking Discrement 
-    if (Discriminant<0){
-        printf("\nThe roots are imaginary");
-    }
-    else if (Discriminant==0){
-        printf("\nThe Roots are Equal");
-        X1 = (-b)/(float)(2*a);
-        printf("\nAnswer...'%.2lf'",X1);
-    }
-    else{
-        printf("\nReal and Unique Roots\n");
-        X1 = (-b+sqrt(Dsc))/(float)(2*a);          // Calculating Root
-        X2 = (-b-sqrt(Dsc))/(float)(2*a);          //Calculating Root
-        printf("\nX1...'%.2lf'",X1);
-        printf("\nX2...'%.2lf'",X2);
-    }
-
-
-}//end main
+    return 0;
+}
