@@ -4,23 +4,27 @@ given array.
 Note: A symmetric matrix is a matrix that is equal to its transpose. Where elements in first row are
 equal to elements in first column and so on.
 Formal Definition: Aij = Aji.
-  #include<stdio.h>
+#include<stdio.h>
 int main () {
-	int matrix[2][2],i=0,j;
+	int matrix[100][100],i=0,j,rows,columns;
+	printf("enter the number of rows\n");
+	scanf("%d",&rows);
+		printf("enter the number of columns\n");
+	scanf("%d",&columns);
 	printf("enter the elements of the matrix\n");
-	while (i<2)
+	while (i<rows)
 	{
 		j=0;
-		while (j<2) {
+		while (j<columns) {
 			scanf("%d",&matrix[i][j]);
 			++j;
 		}
 		++i;
 	}
 	i=0;
-	while (i<2) {
+	while (i<rows) {
 		j=0;
-		while (j<2) {
+		while (j<columns) {
 			if (matrix[i][j]==matrix[j][i]) {
 			++j;
 		}
