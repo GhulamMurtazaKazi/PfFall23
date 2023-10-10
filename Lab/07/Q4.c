@@ -6,25 +6,21 @@ equal to elements in first column and so on.
 Formal Definition: Aij = Aji.
   #include<stdio.h>
 int main () {
-	int matrix[100][100],i=0,j,rows,columns;
-	printf("enter the number of rows\n");
-	scanf("%d",&rows);
-		printf("enter the number of columns\n");
-	scanf("%d",&columns);
+	int matrix[2][2],i=0,j;
 	printf("enter the elements of the matrix\n");
-	while (i<rows)
+	while (i<2)
 	{
 		j=0;
-		while (j<columns) {
+		while (j<2) {
 			scanf("%d",&matrix[i][j]);
 			++j;
 		}
 		++i;
 	}
 	i=0;
-	while (i<rows) {
+	while (i<2) {
 		j=0;
-		while (j<columns) {
+		while (j<2) {
 			if (matrix[i][j]==matrix[j][i]) {
 			++j;
 		}
