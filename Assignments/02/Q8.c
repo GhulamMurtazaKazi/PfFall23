@@ -1,4 +1,4 @@
-Question 08: [10 points]
+Question 08:
 Multiplying the digits of an integer and continuing the process gives the surprising result that the sequence
 of products always arrives at a single digit number. For example,
 715 ---- 35 ---- 15 ---- 5
