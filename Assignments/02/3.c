@@ -1,4 +1,4 @@
-Question: 03 [20 points]
+Question: 03
 You are assisting a traveler who is planning a trip and needs to book a flight for a specific day and time
 slot. The traveler is looking for the most convenient day and time slot where flights are available. You have
 access to a 2D array representing the flight availability for different days and time slots.
