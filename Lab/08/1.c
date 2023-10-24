@@ -1,3 +1,9 @@
+QUESTION # 1
+Create a C program that swaps the values of two integers using a user-defined
+function, swapIntegers. The user inputs two integer values, and the program
+uses the function to swap them. It should perform the swap, and display the
+updated values.
+
 #include <stdio.h>
 
 void swapIntegers(int *a, int *b) {
