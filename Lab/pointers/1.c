@@ -1,16 +1,19 @@
 #include<stdio.h>
-void swap(int*a,int*b) {
-	int temp=*b;
-	*b=*a;
-	*a=temp;
+void swap(int a,int b) {
+	int tmp=a;
+	a=b;
+	b=tmp;
+	printf("j=%d,k=%d",a,b);
+	/* as in the program given previously in the line 5
+	the value of a was assigned to b but the value of a 
+	in the line 4 was updated to the value of b thus there 
+	is no change in the value of b.Instead tmp that is holding
+	the initial value of a should be assigned to b in line 5.
+	It will successfully swap both the values*/   
 }
-/*we were not using pointers initially that's why the program was not producing the desired result.The copy of argument is passed to the 
-function that's why any change in parameter doesnot affect argument*/ 	
 int main () {
 	int j=2,k=5;
 	printf("j=%d,k=%d\n",j,k);
-	swap(&j,&k);
-		printf("j=%d,k=%d\n",j,k);
-		return 0;
+	swap(j,k);
+	return 0;
 }
-
