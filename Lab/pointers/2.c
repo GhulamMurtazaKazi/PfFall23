@@ -29,7 +29,7 @@ int main () {
 		++i;
 	}
 	reverse(array,10);
-	printf("the reversed array is:")
+	printf("the reversed array is:");
 	i=0; // reset i to 0 before printing the reversed array
 	while (i<10) {
 		printf("%d\n",array[i]); // corrected here
