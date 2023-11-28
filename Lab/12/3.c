@@ -1,0 +1,1 @@
+3. Create a structure to keep record of each course (course code, course name, course gpa, semester). Make a console application that allows to input course infromation and save data to a file. Then it has an option to view transcript, calculate CGPA and SGPAs.
