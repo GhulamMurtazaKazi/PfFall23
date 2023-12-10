@@ -41,7 +41,7 @@ int personalId, deptId, salary;
 }
 int main() {
 int id;
-printf("Ghulam Murtaza Kazi  23k-0002\n\n");
+printf("Ghulam Murtaza Kazi  23k-0020\n\n");
 printf("Input isn't required as filing will do the entire work.\n\n");
 printf("Enter the record ID: ");
 scanf("%d", &id);
